@@ -1,0 +1,7 @@
+{
+  "name": "create-auth-hassan",
+  "version": "1.0.0",
+  "bin": {
+    "create-auth-hassan": "bin/create-auth.js"
+  }
+}
