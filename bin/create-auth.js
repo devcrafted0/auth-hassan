@@ -3,13 +3,15 @@
 const fs = require("fs");
 const path = require("path");
 
-const source = path.join(__dirname, "../auth");
-const target = path.join(process.cwd(), "auth");
+const source = path.resolve(__dirname, "../auth");
+const target = path.resolve(process.cwd(), "auth");
 
-if (fs.existsSync(target)) {
-  console.error("auth folder already exists");
+const force = process.argv.includes("--force");
+
+if (fs.existsSync(target) && !force) {
+  console.error("auth folder already exists. Use --force to overwrite.");
   process.exit(1);
 }
 
-fs.cpSync(source, target, { recursive: true });
+fs.cpSync(source, target, { recursive: true, force });
 console.log("✅ Auth folder added to project root");
