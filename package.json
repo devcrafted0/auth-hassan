@@ -1,7 +1,13 @@
 {
-  "name": "create-auth-hassan",
+  "name": "@hassan/create-auth",
   "version": "1.0.0",
   "bin": {
-    "create-auth-hassan": "bin/create-auth.js"
-  }
+    "create-auth": "bin/create-auth.js"
+  },
+  "author": "Hassan",
+  "license": "MIT",
+  "files": [
+    "bin/",
+    "auth/"
+  ]
 }
