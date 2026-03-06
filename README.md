@@ -10,9 +10,10 @@ Stop configuring providers, setting up database connections, and building authen
 
 This CLI is optimized for modern **Next.js App Router** development.
 
-- **Framework:** Next.js 14+
-- **UI Components:** shadcn/ui
-- **Database:** MongoDB
+- **Framework:** Next.js 14+ https://nextjs.org/
+- **UI Components:** shadcn/ui https://ui.shadcn.com/
+- **Auth js:** Auth Js https://authjs.dev/
+- **Database:** MongoDB https://www.mongodb.com/
 - **Authentication Logic:** React Server Actions
 - **Security:** Middleware-based route protection
 ---
