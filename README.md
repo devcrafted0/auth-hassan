@@ -170,6 +170,3 @@ If you encounter any issues or have feature suggestions:
 2. Describe the problem or feature request
 
 Contributions are welcome!
-
-```
-```
