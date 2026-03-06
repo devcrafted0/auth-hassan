@@ -1,4 +1,3 @@
-````md
 # 🛡️ create-auth-hassan
 
 A specialized CLI tool designed to inject a production-ready **Authentication System** into your Next.js projects instantly.
@@ -25,9 +24,6 @@ Install the package inside your Next.js project.
 
 ```bash
 npm install create-auth-hassan
-````
-
----
 
 # 💻 Usage
 
