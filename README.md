@@ -15,7 +15,7 @@ This CLI is optimized for modern **Next.js App Router** development.
 - **Database:** MongoDB
 - **Authentication Logic:** React Server Actions
 - **Security:** Middleware-based route protection
-
+https://github.com/devcrafted0/auth-hassan/blob/main/README.md
 ---
 
 # 📦 Installation
@@ -24,6 +24,9 @@ Install the package inside your Next.js project.
 
 ```bash
 npm install create-auth-hassan
+```
+
+---
 
 # 💻 Usage
 
